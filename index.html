@@ -4,8 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
+    <style>
+
+        h1{
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .form-1{
+            position: relative;
+            left: 590px;
+            top: 50%;
+            width: 400px;
+            height: 500px;
+            background-color: grey;
+        }
+
+        .form-1 .inpt{
+            display: block;
+            text-align: center;
+            width: 210px;
+            position: relative;
+            left: 35%;
+            top: px;
+        }
+
+        p{
+            display: inline-block;
+            position: relative;
+            top: 8%;
+            left: 38px;
+            color: white;
+            font-size: 18px;
+            font-weight: 10%;
+            font-family: sans-serif;
+        }
+
+        #h1-1{
+            position: relative;
+            top: 40px;
+            color: white;
+        }
+
+    </style>
 </head>
 <body>
-    
+
+    <h1>
+        Creating First Form For Personal Detail
+    </h1>
+
+    <form class="form-1">
+
+        <h1 id="h1-1">INFORMATION</h1>
+
+        <p>Name</p>
+        <input class="inpt" type="text" placeholder="Enter Your Name" name="name">
+
+        <p>E-mail</p>
+        <input class="inpt" type="email" placeholder="Enter your email" name="email">
+
+        <p>
+            password
+        </p>
+        <input class="inpt" type="password" placeholder="Type your password" name="password">
+
+        <p>
+            Date of Birth
+        </p>
+        <input class="inpt" type="date" name="DOB">  
+
+        
+        <input type="radio">
+        <p id="rad">Slect Your Gender</p>
+    </form>
 </body>
 </html>
